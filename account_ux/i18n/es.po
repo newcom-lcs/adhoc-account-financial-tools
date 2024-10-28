@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Mariana Torres <mt@adhoc.com.ar>, 2022
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
+# Gonzalo, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-15 18:04+0000\n"
+"POT-Creation-Date: 2024-10-24 19:35+0000\n"
 "PO-Revision-Date: 2022-11-02 16:50+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023\n"
+"Last-Translator: Gonzalo, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr "Cuenta"
 #. module: account_ux
 #: model:ir.model,name:account_ux.model_account_chart_template
 msgid "Account Chart Template"
-msgstr "Plantilla de Plan de Cuentas"
+msgstr "Plantilla de plan contable"
 
 #. module: account_ux
 #: model:ir.model,name:account_ux.model_account_group
@@ -125,7 +126,7 @@ msgstr "Compañía"
 #. module: account_ux
 #: model:ir.model,name:account_ux.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Ajustes de configuración"
 
 #. module: account_ux
 #: model:ir.model,name:account_ux.model_res_partner
@@ -162,7 +163,7 @@ msgstr ""
 #: model:ir.model,name:account_ux.model_res_currency_rate
 #: model:ir.model.fields,field_description:account_ux.field_account_change_currency__currency_rate
 msgid "Currency Rate"
-msgstr "Tasa monetaria"
+msgstr "Tipo de cambio"
 
 #. module: account_ux
 #. odoo-python
@@ -322,7 +323,7 @@ msgstr "Última actualización el"
 #. module: account_ux
 #: model_terms:ir.ui.view,arch_db:account_ux.view_partner_form
 msgid "Match Payments"
-msgstr ""
+msgstr "Conciliar Pagos"
 
 #. module: account_ux
 #: model_terms:ir.ui.view,arch_db:account_ux.view_account_payment_tree_personalization
@@ -340,6 +341,11 @@ msgstr "Movimiento"
 #: model:ir.model.fields,field_description:account_ux.field_account_payment__other_currency
 msgid "Other Currency"
 msgstr "Otra Moneda"
+
+#. module: account_ux
+#: model_terms:ir.ui.view,arch_db:account_ux.view_account_invoice_filter
+msgid "Paid"
+msgstr "Pagado"
 
 #. module: account_ux
 #: model:ir.ui.menu,name:account_ux.menu_partial_reconciliations
@@ -362,9 +368,9 @@ msgid "Partner"
 msgstr "Empresa"
 
 #. module: account_ux
-#: model_terms:ir.ui.view,arch_db:account_ux.view_account_invoice_filter
-msgid "Paid"
-msgstr "Pagado"
+#: model:ir.model,name:account_ux.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
 
 #. module: account_ux
 #. odoo-python
@@ -486,7 +492,7 @@ msgstr ""
 #: model:ir.ui.menu,name:account_ux.menu_full_reconciliations
 #: model_terms:ir.ui.view,arch_db:account_ux.view_account_invoice_tree
 msgid "Total"
-msgstr ""
+msgstr "Total en moneda"
 
 #. module: account_ux
 #: model:ir.model.fields.selection,name:account_ux.selection__account_change_currency__change_type__value

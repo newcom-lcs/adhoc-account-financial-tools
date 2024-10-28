@@ -3,15 +3,15 @@
 # 	* account_payment_term_surcharge
 # 
 # Translators:
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 13:44+0000\n"
+"POT-Creation-Date: 2024-09-27 17:49+0000\n"
 "PO-Revision-Date: 2023-11-06 13:44+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,13 @@ msgid "<span class=\"o_form_label\">of the month</span>"
 msgstr ""
 
 #. module: account_payment_term_surcharge
+#: model:ir.model.fields,field_description:account_payment_term_surcharge.field_account_bank_statement_line__avoid_surcharge_invoice
+#: model:ir.model.fields,field_description:account_payment_term_surcharge.field_account_move__avoid_surcharge_invoice
+#: model:ir.model.fields,field_description:account_payment_term_surcharge.field_account_payment__avoid_surcharge_invoice
+msgid "Avoid Surcharge Invoice"
+msgstr ""
+
+#. module: account_payment_term_surcharge
 #: model:ir.model,name:account_payment_term_surcharge.model_res_company
 msgid "Companies"
 msgstr "Compañías"
@@ -47,7 +54,7 @@ msgstr "Compañías"
 #. module: account_payment_term_surcharge
 #: model:ir.model,name:account_payment_term_surcharge.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Ajustes de configuración"
 
 #. module: account_payment_term_surcharge
 #: model:ir.actions.server,name:account_payment_term_surcharge.cron_recurring_surcharges_invoices_ir_actions_server
@@ -183,7 +190,7 @@ msgstr ""
 #: model:ir.model,name:account_payment_term_surcharge.model_account_payment_term
 #: model:ir.model.fields,field_description:account_payment_term_surcharge.field_account_payment_term_surcharge__payment_term_id
 msgid "Payment Terms"
-msgstr "Plazos de pago"
+msgstr "Condiciones de pago"
 
 #. module: account_payment_term_surcharge
 #: model:ir.model,name:account_payment_term_surcharge.model_account_payment_term_surcharge
@@ -216,6 +223,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_payment_term_surcharge.field_account_payment_term_surcharge__sequence
 msgid "Sequence"
 msgstr "Secuencia"
+
+#. module: account_payment_term_surcharge
+#. odoo-python
+#: code:addons/account_payment_term_surcharge/models/account_move.py:0
+#, python-format
+msgid ""
+"Something went wrong creating the surcharge invoice from this invoice. "
+"Please take a look on it."
+msgstr ""
 
 #. module: account_payment_term_surcharge
 #: model:ir.model.fields,field_description:account_payment_term_surcharge.field_res_company__payment_term_surcharge_product_id
@@ -255,6 +271,13 @@ msgstr ""
 #. module: account_payment_term_surcharge
 #: model_terms:ir.ui.view,arch_db:account_payment_term_surcharge.res_config_settings_view_form
 msgid "Validar automaticamente facturas de recargo"
+msgstr ""
+
+#. module: account_payment_term_surcharge
+#. odoo-python
+#: code:addons/account_payment_term_surcharge/models/account_move.py:0
+#, python-format
+msgid "We couldn't run surcharges cron job in the following invoice: %s."
 msgstr ""
 
 #. module: account_payment_term_surcharge

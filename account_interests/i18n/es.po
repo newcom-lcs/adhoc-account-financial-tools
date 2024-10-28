@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 19:06+0000\n"
+"POT-Creation-Date: 2024-10-22 13:17+0000\n"
 "PO-Revision-Date: 2023-06-23 11:05+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2023\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -191,6 +191,14 @@ msgstr "Repetir cada (Día/Semana/Mes/Año)"
 #: model:ir.model.fields,field_description:account_interests.field_res_company_interest__tolerance_interval
 msgid "Tolerance"
 msgstr "Tolerancia"
+
+#. module: account_interests
+#. odoo-python
+#: code:addons/account_interests/models/res_company_interest.py:0
+#, python-format
+msgid ""
+"We couldn't run interest invoices cron job in the following companies: %s."
+msgstr ""
 
 #. module: account_interests
 #: model:ir.model.fields.selection,name:account_interests.selection__res_company_interest__rule_type__weekly
