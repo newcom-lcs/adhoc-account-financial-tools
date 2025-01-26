@@ -3,15 +3,15 @@
 # 	* account_debt_report
 # 
 # Translators:
-# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
+# Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-16 20:36+0000\n"
+"POT-Creation-Date: 2025-01-22 11:26+0000\n"
 "PO-Revision-Date: 2024-04-16 20:36+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
+"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,6 +74,11 @@ msgid "Account Type's"
 msgstr ""
 
 #. module: account_debt_report
+#: model:ir.model.fields,help:account_debt_report.field_account_debt_report_wizard__company_currency
+msgid "Add columns for company currency?"
+msgstr ""
+
+#. module: account_debt_report
 #: model:ir.model.fields,help:account_debt_report.field_account_debt_report_wizard__secondary_currency
 msgid "Add columns for secondary currency?"
 msgstr "Agregar columnas para moneda secundaria?"
@@ -88,6 +93,11 @@ msgstr "Cancelar"
 #: model_terms:ir.ui.view,arch_db:account_debt_report.account_debt_report_wizard_form
 msgid "Company"
 msgstr "Compañía"
+
+#. module: account_debt_report
+#: model:ir.model.fields,field_description:account_debt_report.field_account_debt_report_wizard__company_currency
+msgid "Company Currency"
+msgstr "Divisa de la valoración"
 
 #. module: account_debt_report
 #: model_terms:ir.ui.view,arch_db:account_debt_report.account_debt_report_wizard_form
@@ -235,6 +245,13 @@ msgstr "Mostrar detalle de Facturas"
 #: model:ir.model.fields,field_description:account_debt_report.field_account_debt_report_wizard__to_date
 msgid "To"
 msgstr "Hasta"
+
+#. module: account_debt_report
+#. odoo-python
+#: code:addons/account_debt_report/models/res_partner.py:0
+#, python-format
+msgid "Total"
+msgstr "Total en moneda"
 
 #. module: account_debt_report
 #: model_terms:ir.ui.view,arch_db:account_debt_report.account_debt_report_wizard_form
